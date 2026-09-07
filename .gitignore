@@ -1,0 +1,25 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/.next/
+**/out/
+**/coverage/
+**/.vite/
+**/*.tsbuildinfo
+
+# Secrets and local HTTPS private material
+**/.env
+**/.env.*
+!**/.env.example
+.https/
+**/*.key
+**/*.pfx
+**/*.p12
+
+# Runtime and local tooling
+logs/
+**/*.log
+**/.playwright-cli/
+**/output/
+.DS_Store
+Thumbs.db
